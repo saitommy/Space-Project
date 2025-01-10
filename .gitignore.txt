@@ -1,0 +1,18 @@
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+Debug/
+Release/
+
+# SFML dynamic libraries (DLLs)
+*.dll
+
+# Backup and temp files
+*.bak
+*.tmp
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
