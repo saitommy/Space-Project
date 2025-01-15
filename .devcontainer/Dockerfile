@@ -19,9 +19,10 @@ WORKDIR /app
 
 # copy the project files into container
 COPY . /app
+RUN ln -s /app/space_project/assets /app/assets
 
 # run CMake to configure the project and build it
-RUN mkdir build && cd build && \
+RUN mkdir buildmac && cd buildmac && \
     cmake .. && \
     make
 

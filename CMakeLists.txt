@@ -36,5 +36,5 @@ message(STATUS "Version: ${PROJECT_VERSION}")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
 
 # copy assets folder to the build directory
-file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR})
+file(COPY ${CMAKE_SOURCE_DIR}/space_project/assets DESTINATION ${CMAKE_BINARY_DIR}/assets)
 
