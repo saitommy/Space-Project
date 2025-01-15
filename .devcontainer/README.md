@@ -51,7 +51,7 @@ docker run -it --rm -e DISPLAY=host.docker.internal:0 spaceproject
 Once inside the container, run the following command to start the application:
 
 ```bash
-./build/bin/SpaceProject
+./buildmac/bin/SpaceProject
 ```
 
 ### 5. Exiting Project
